@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prisma:studio": "prisma studio",
-    "prisma:seed": "ts-node --compiler-options {\\\"module\\\":\\\"CommonJS\\\"} src/seed.ts"
+    "prisma:seed": "ts-node --compiler-options {\\\"module\\\":\\\"CommonJS\\\"} src/seeds.ts"
   },
   "dependencies": {
     "@prisma/client": "^5.5.2",
