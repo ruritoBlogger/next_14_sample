@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prisma:studio": "prisma studio",
+    "prisma:seed": "ts-node --compiler-options {\\\"module\\\":\\\"CommonJS\\\"} src/seed.ts"
   },
   "dependencies": {
     "@prisma/client": "^5.5.2",
@@ -29,6 +31,7 @@
     "postcss": "^8",
     "prettier": "^3.0.3",
     "tailwindcss": "^3",
+    "ts-node": "^10.9.1",
     "typescript": "^5"
   }
 }
